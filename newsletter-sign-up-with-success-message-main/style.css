@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;700 & family= Josefin+Sans:wght@400;700 & family= Montserrat:ital,wght@ 0,100;0,400;1,400 & família= Roboto:wght@400;700 & display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(58, 55, 79);
+}
+
+form{
+    width: 50vw;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 10%;
+    background-color: rgb(252, 250, 250) ;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+main{
+    width: 50vw;
+    height: auto;
+    padding: 50PX;
+}
+
+h1{
+    margin: 45px 0 25px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.itens li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(35, 34, 40);
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon{
+    margin-right: 20px;
+    max-width: 16px;
+}
+
+.box-mail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    max-width: 100%;
+    gap: 10px;
+}
+
+label{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgb(58, 55, 79);
+}
+
+.email-invalid{
+    color: red;
+    right: 100;
+    display: none;
+}
+
+input{
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+}
+
+#email-box{
+    border-color: rgb(241, 237, 237);
+    margin-bottom: 30px;
+    outline: 0;
+    cursor:auto;
+}
+
+.button{
+    background-color: rgb(58, 55, 79);
+    color: aliceblue;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.button:hover{
+    background:linear-gradient(45deg, rgb(246, 24, 76), tomato) ;
+}
+aside{
+    width: 50vw;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.image{
+    max-width: 100%;
+    width: 450px;
+    height: 100%;
+    object-fit: cover;  
+    border-radius: 15px;  
+}
+
+.attribution{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: aliceblue;
+    
+}
+
+
+@media(max-width: 790px) and (min-width: 400px){
+    
+    form{
+        display:flex;
+        flex-direction: column-reverse;
+        width: 50vh;
+        height: auto;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    main{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+    .card{
+        margin: 0;
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+    }
+
+    /* img{
+       
+       top: 110;
+    }   */
+}
+
+@media (max-width: 400px){
+    
+    body{
+        background-color: white;
+    }
+    form{
+        display:flex;
+        flex-direction: column-reverse;
+        width: 50vh;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 auto;
+        box-shadow: none;
+        
+    }     
+    
+    main{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    .card{
+        margin: 0;
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+    }
+        
+    .attribution {
+        color: black;
+        text-align: center;
+        margin: 10px 50px;
+
+    }
+}

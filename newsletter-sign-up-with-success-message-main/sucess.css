@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(58, 55, 79);
+}
+
+.card-sucess{
+    width: 40vh;
+    margin: 0 auto;
+    height: auto;
+    padding: 45px;
+    margin-top: 10%;
+    background-color: rgb(252, 250, 250) ;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 18px;
+}
+
+.button{
+    background-color: rgb(58, 55, 79);
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.button:hover{
+    background:linear-gradient(45deg, rgb(246, 24, 76), tomato) ;
+}
+
+.attribution{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.attribution a{
+    text-decoration: none;
+    color: grey;
+}
+
+@media (max-width: 400px){
+    
+    body{
+        background-color: white;
+    }
+
+    .card-sucess{
+        box-shadow: none;
+        padding: 10px;
+    }
+
+    img{
+        width: 60px;
+        margin-bottom: 60px;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .button{
+        margin-top: 280px;
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+
+    .attribution{
+        color: black;
+    }
+
+    .attribution a{
+        color: blue;
+    }
+}
