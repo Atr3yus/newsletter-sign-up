@@ -1,6 +1,6 @@
 function enviar(){
-    validaEmail();
-    //window.location="sucess.html";
+    // validaEmail();
+    window.location="sucess.html";
 }
 
 function validaEmail(email){
