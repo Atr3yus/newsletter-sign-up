@@ -1,5 +1,5 @@
 # Desafio-newsletter-sign-up
-Repositorio para a conclusão do desafio: newsletter-sign-up do site front mentor
+Repositorio para a conclusão do desafio: newsletter-sign-up , https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub
 
 ##
 # Pagina Desktop
