@@ -19,7 +19,7 @@
 <body>
 
   <!-- Sign-up form start -->
-<form class="container">
+<form class="container" id="form">
   <main> 
 
     <h1>Stay updated!</h1>
@@ -43,11 +43,11 @@
       <div class="box-mail">
           <div class="labels">
             <label class="email">Email address</label>
-            <label class="email-invalid">Valid email required</label>
+            <label class="email-invalid" id="invalidMail">Valid email required</label>
           </div>
-        <input type="email" placeholder="email@company. com" id="email-box">
+        <input class="placeholder" type="email" placeholder="email@company.com" id="email-box">
       </div>
-     <button class="button" type="submit" id="email" onclick="enviar()">Subscribe to monthly newsletter</button> 
+     <button class="button" type="submit" id="email" >Subscribe to monthly newsletter</button> 
   
   </main>
     
