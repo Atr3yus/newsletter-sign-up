@@ -6,7 +6,7 @@ const inpu = document.querySelector("#email-box");
 form.addEventListener("submit", (event) =>{
     event.preventDefault();
 
-    if(emailBox.value === ""){
+    if(emailBox.value === "" || !validaEmail(emailBox.value)){
         
         invalidMail.style.display = "block";
         inpu.style.backgroundColor = "rgba(231, 67, 67, 0.2)";
@@ -21,3 +21,10 @@ function retorna(){
     window.location="index.html"
 }
 
+function validaEmail(email){
+
+    let reg = /\S+@\S+\.\S+/;
+    return reg.test(email);
+
+}      
+   
