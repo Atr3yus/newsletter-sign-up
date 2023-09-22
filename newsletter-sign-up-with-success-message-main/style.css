@@ -81,13 +81,15 @@ label{
     height: 60px;
     border-radius: 10px;
     padding: 10px 30px;
-    background-color: white;
-   
-    
+    background-color: white;    
 }
 
 ::placeholder{
-    color: rgb(8, 8, 8);
+    color: rgb(10, 9, 9);
+}
+
+#email-box.erro::placeholder {
+    color: red;
 }
 
 .labels{
