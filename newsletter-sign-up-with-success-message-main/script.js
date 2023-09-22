@@ -10,7 +10,7 @@ form.addEventListener("submit", (event) =>{
         
         invalidMail.style.display = "block";
         inpu.style.backgroundColor = "rgba(231, 67, 67, 0.2)";
-        emailBox.classList.add('erro');
+        emailBox.classList.add('erro'); //add o atributo erro no css para mudar a cor do placeholder
         return;
     }else{
         window.location="sucess.html";

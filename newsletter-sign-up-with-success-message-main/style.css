@@ -84,12 +84,13 @@ label{
     background-color: white;    
 }
 
-::placeholder{
-    color: rgb(10, 9, 9);
+#email-box.erro{
+    border: 1px solid red;
 }
 
-#email-box.erro::placeholder {
+#email-box.erro::placeholder { /*configuração add com o js quando houver ero*/
     color: red;
+    font-weight: 500;
 }
 
 .labels{
